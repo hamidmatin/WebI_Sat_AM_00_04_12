@@ -5,7 +5,7 @@ HTML Snippets
 Live Server
 HTMLHint
 Path Intellisense
-
+Auto Rename Tag
 
 
 

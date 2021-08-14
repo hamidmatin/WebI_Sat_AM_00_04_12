@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.row {
+  overflow: auto;
+}
+.bg-dark {
+  background-color: #282a35 !important;
+}
+.bg-green {
+  background-color: #04aa6d !important;
+}
+.bg-yellow {
+  background-color: #fff4a3 !important;
+}
+.bg-white {
+  background-color: white !important;
+}
+.bg-gray {
+  background-color: #e7e9eb !important;
+}
+.bg-pink {
+  background-color: #ffc0c7 !important;
+}
+.bg-light-green {
+  background-color: #d9eee1 !important;
+}
+
+.text-white {
+  color: white !important;
+}
+.text-black {
+  color: black !important;
+}
+.text-brown {
+  color: brown !important;
+}
+.text-red {
+  color: red !important;
+}
+.text-blue {
+  color: blue !important;
+}
+.column-50 {
+  width: 50%;
+  float: left;
+}
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+.mb-10{ margin-bottom: 10px;}
+.mb-20{ margin-bottom: 20px;}
+.mb-30{ margin-bottom: 30px;}
+.mb-40{ margin-bottom: 40px;}
+.mb-50{ margin-bottom: 40px;}
+
+.border-rounded{
+  border-radius: 6px;
+}
+
+#header {
+  height: 100px;
+  background-color: #f1f1f1;
+}
+
+/**************/
+.course-tutorial{
+  padding: 80px;
+  text-align: center;
+}
+.course-tutorial-title{
+  font-size: 100px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.course-tutorial-description{
+  font-size: 19px;
+  margin: 1.2em 0;
+}
+
+.btn{
+  display: block;
+  color: black;
+  background-color: #ccc;
+  text-decoration: none;
+  font-size: 18px;
+  width: fit-content;
+  min-width: 200px;
+  line-height: 26px;
+  text-align: center;
+  padding: 8px 16px;
+}
+.btn.btn-pill{
+  border-radius: 200px;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      p{
+        border: 2px solid darkgrey;
+        padding: 15px;
+        border-radius: 8px;
+        width: 60%;
+        font-size: 18px;
+        line-height: 1.5;
+        
+        /* راه اول */
+        /* height: 150px; */
+
+        /* راه دوم */
+        /* min-height: 150px; */
+
+        /* راه سوم */
+        overflow: auto;
+      }
+      img{
+        height: 150px;
+
+        /* vertical-align: auto;
+        vertical-align: text-bottom; 
+        vertical-align: sub;
+        vertical-align: super;
+        vertical-align: middle; */
+
+        float: none;
+        float: right;
+        float: left;
+        margin-right: 10px;
+      }
+      span{
+        display: block;
+        width: 200px;
+        height: 100px;
+        background-color: red;
+        float: right;
+      }
+
+      #div1{
+        width: 250px;
+        height: 290px;
+        background-color: lightblue;
+        float: left;
+      }
+      #div2{
+        width: 550px;
+        height: 250px;
+        background-color: orangered;
+        float: left;
+      }
+      #div3{
+        width: 200px;
+        height: 260px;
+        background-color: darkorchid;
+        /* float: left; */
+        float: right;
+        /* margin-right: 350px; */
+      }
+      #div4{
+        /* width: 200px; */
+        width: 100%;
+        height: 250px;
+        background-color: rgb(24, 219, 161);
+        /* float: left; */
+        clear: none;
+        clear: left;
+        clear: right;
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      <img src="/images/pineapple.jpg" alt="">
+      <span>SPAN</span>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quidem, error magni
+      facere, veniam tempore eaque aliquid aut dicta id neque! Obcaecati quaerat ut totam incidunt
+      laboriosam itaque dolore eius!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quidem, error magni
+      facere, veniam tempore eaque aliquid aut dicta id neque! Obcaecati quaerat ut totam incidunt
+      laboriosam itaque dolore eius!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quidem, error magni
+      facere, veniam tempore eaque aliquid aut dicta id neque! Obcaecati quaerat ut totam incidunt
+      laboriosam itaque dolore eius!
+    </p>
+
+    <div id="div1"></div>
+    <div id="div2"></div>
+    <div id="div3"></div>
+    <div id="div4"></div>
+  </body>
+</html>

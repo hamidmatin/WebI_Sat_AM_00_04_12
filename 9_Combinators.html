@@ -25,11 +25,11 @@
 
         child selector (>)
         descendant selector (space)
-        adjacent sibling selector (+)
-        general sibling selector (~)
+        adjacent sibling selector (+)  0 or 1 tag
+        general sibling selector (~)   0 or n ta
       */
 
-      /* child selector (>) */
+      /* child selector (>) */  
       div > p {
         color: red;
       }
@@ -48,8 +48,8 @@
         font-size: 1.5em;
       }
       div article p {
-        border-bottom: 1px solid #000;
-        /* color: yellow; */
+        border-bottom: 3px solid #000;
+        color: yellow;
       }
 
       /* adjacent sibling selector (+) */
@@ -60,6 +60,7 @@
       /* general sibling selector (~) */
       div ~ p {
         text-transform: uppercase;
+        letter-spacing: 3px;
       }
     </style>
   </head>
@@ -79,9 +80,9 @@
       </section>
       <p>Paragraph 8 in the div.</p>
     </div>
-    <!-- <span>sds</span> -->
+    <span>sdsdsd</span>
     <p>Paragraph 9. Not in a div.</p>
-    <span>sds</span>
+    <span>sdfsfdf</span>
     <p>Paragraph 10. Not in a div.</p>
   </body>
 </html>

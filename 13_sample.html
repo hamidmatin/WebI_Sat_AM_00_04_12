@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .button{
+      text-decoration: none;
+      background-color: dodgerblue;
+      color: white;
+      display: block;
+      width: fit-content;
+      padding: 0.5em 1em;
+      margin: 200px;
+      box-shadow: 2px 2px 4px  rgba(0, 0, 0, 0.562);
+      transition: all 200ms;
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+    .button:hover{
+      background-color: hsl(210, 100%, 76%);
+    }
+    .button:active{
+      box-shadow: none;
+      top: 2px;
+      left: 2px;
+    }
+
+    .gradient-animate{
+      text-decoration: none;
+      color: white;
+      display: block;
+      width: fit-content;
+      padding: 1.5em 2em;
+      margin: 200px;
+      background-color: dodgerblue;
+      background-image: linear-gradient(45deg, dodgerblue, lightblue, dodgerblue);
+      background-size: 200% 100%;
+      background-position-x: 0;
+
+      transition: all .3s;
+    }
+    .gradient-animate:hover{
+      background-position-x: 200%;
+    }
+  </style>
+</head>
+<body>
+  <a href="#" class="button">Click Me</a>
+  <a href="#" class="gradient-animate">Click Me</a>
+</body>
+</html>

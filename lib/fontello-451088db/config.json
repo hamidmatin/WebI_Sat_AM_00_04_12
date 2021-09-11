@@ -1,0 +1,178 @@
+{
+  "name": "",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "1d9b2bb0d0621cd616139c6a441ed442",
+      "css": "down-outline",
+      "code": 59392,
+      "src": "typicons"
+    },
+    {
+      "uid": "ec3be32c1330a17ef251b378ebd7d3ac",
+      "css": "left-outline",
+      "code": 59393,
+      "src": "typicons"
+    },
+    {
+      "uid": "abf264d54e3f10187167ebc0e833d12e",
+      "css": "up-outline",
+      "code": 59394,
+      "src": "typicons"
+    },
+    {
+      "uid": "86bc84e014767f8f1377723c47d1b153",
+      "css": "right-outline",
+      "code": 59395,
+      "src": "typicons"
+    },
+    {
+      "uid": "9682f692dd55ada1d1741a3a56420232",
+      "css": "lock",
+      "code": 59396,
+      "src": "iconic"
+    },
+    {
+      "uid": "2648c9967bbf1c714670b9f79d7d43d7",
+      "css": "lock-empty",
+      "code": 59397,
+      "src": "iconic"
+    },
+    {
+      "uid": "51fe10dcd3f6669d6a1ea52fc94d5173",
+      "css": "lock-open",
+      "code": 59398,
+      "src": "iconic"
+    },
+    {
+      "uid": "7f374d3b7333829adfc2dc54a08f25f6",
+      "css": "lock-open-empty",
+      "code": 59399,
+      "src": "iconic"
+    },
+    {
+      "uid": "b69ac48f8ad98e786047ff3d33101045",
+      "css": "windy-rain-inv",
+      "code": 59400,
+      "src": "meteocons"
+    },
+    {
+      "uid": "f1315f7ea135cbea7966cce0e7c10ce0",
+      "css": "snow-heavy-inv",
+      "code": 59401,
+      "src": "meteocons"
+    },
+    {
+      "uid": "ab5c31256cdd1f6b2d6de7202936f5a1",
+      "css": "hail-inv",
+      "code": 59402,
+      "src": "meteocons"
+    },
+    {
+      "uid": "8f1bbb4667a8372dc4bb7de767f22f11",
+      "css": "clouds-inv",
+      "code": 59403,
+      "src": "meteocons"
+    },
+    {
+      "uid": "87cf185e0420ff98e04406c0fbb873eb",
+      "css": "snow-inv",
+      "code": 59404,
+      "src": "meteocons"
+    },
+    {
+      "uid": "b2b73369982f91cddf8ec5f2a692e5ea",
+      "css": "clouds-flash-inv",
+      "code": 59405,
+      "src": "meteocons"
+    },
+    {
+      "uid": "c64623255a4a7c72436b199b05296c4f",
+      "css": "emo-happy",
+      "code": 59406,
+      "src": "fontelico"
+    },
+    {
+      "uid": "1ba44825e5f10920b4e3f1d0c73f79a2",
+      "css": "emo-wink",
+      "code": 59407,
+      "src": "fontelico"
+    },
+    {
+      "uid": "4bb2045a2aca451705fe8a23c4a576ab",
+      "css": "emo-wink2",
+      "code": 59411,
+      "src": "fontelico"
+    },
+    {
+      "uid": "53ed8570225581269cd7eff5795e8bea",
+      "css": "emo-unhappy",
+      "code": 59408,
+      "src": "fontelico"
+    },
+    {
+      "uid": "fd59eac4d575b48eb156590b63a355fd",
+      "css": "emo-sleep",
+      "code": 59409,
+      "src": "fontelico"
+    },
+    {
+      "uid": "142263941b9f4cd4b2b84f1f4cd13b1d",
+      "css": "emo-thumbsup",
+      "code": 59410,
+      "src": "fontelico"
+    },
+    {
+      "uid": "4dd56d61fd0dab19277824da301424b3",
+      "css": "emo-devil",
+      "code": 59412,
+      "src": "fontelico"
+    },
+    {
+      "uid": "68e298ff2d8b25dd7f647ed64f5ae690",
+      "css": "emo-surprised",
+      "code": 59413,
+      "src": "fontelico"
+    },
+    {
+      "uid": "bb68a13a3574b087d4350eff0b8d48e3",
+      "css": "emo-tongue",
+      "code": 59414,
+      "src": "fontelico"
+    },
+    {
+      "uid": "48cc210e59ff4bc56b6c8fba6eb384b8",
+      "css": "emo-coffee",
+      "code": 59415,
+      "src": "fontelico"
+    },
+    {
+      "uid": "38575a803c4da31ce20d77e1e1236bcb",
+      "css": "paper-plane",
+      "code": 61912,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "4b2321afcbe0505a70b80abd5c25e09b",
+      "css": "paper-plane-empty",
+      "code": 61913,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "882d407598d4e60074f5c08b3372811e",
+      "css": "spotify",
+      "code": 62247,
+      "src": "entypo"
+    },
+    {
+      "uid": "067edf3e1f6458e782d0254e63eb5eb6",
+      "css": "spotify-circled",
+      "code": 62248,
+      "src": "entypo"
+    }
+  ]
+}

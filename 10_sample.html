@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      height: 1500px;
+      background: url('/images/bgdesert.jpg');
+    }
+    @keyframes turn-div {
+      0%{
+        top: 0;
+        left: 0;
+        background-color: red;
+      }
+      25%{
+        top: 0;
+        left: calc(100% - 200px);
+        background-color: greenyellow;
+      }
+      50%{
+        top: calc(100% - 200px);
+        left: calc(100% - 200px);
+        background-color: rgb(47, 154, 255);
+      }
+      75%{
+        top: calc(100% - 200px);
+        left: 0;
+        background-color: rgb(255, 47, 245);
+      }
+      100%{
+        top: 0;
+        left: 0;
+      }
+    }
+    #div1{
+      width: 200px;
+      height: 200px;
+      background-color: red;
+      border-radius: 100%;
+      position: fixed;
+      z-index: 1000;
+      left: 0;
+      top: 0;
+
+      animation: turn-div 20s infinite;
+    }
+  </style>
+</head>
+<body>
+  <div id="div1"></div>
+</body>
+</html>

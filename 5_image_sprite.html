@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #div1{
+      background-image: url('/images/sprite.png');
+      background-color: #ccc;
+      border: 1px solid black;
+      width: 500px;
+      height: 500px;
+    }
+
+    .icon{
+      background-image: url('/images/sprite.png');
+      display: inline-block;
+    }
+    .icon-search{
+      background-position: 0 0;
+      width: 35px;
+      height: 20px;
+    }
+    .icon-phone{
+      background-position: -84px -38px;
+      width: 32px;
+      height: 32px;
+    }
+    .icon-chat{
+      background-position: -260px -88px;
+      width: 90px;
+      height: 90px;
+      background-color: #f1f1f1;
+      transition: background-position .3s;
+    }
+    .icon-chat:hover{
+      background-position: -260px -188px;
+    }
+  </style>
+</head>
+<body>
+  <div id="div1">
+
+  </div>
+
+  <div class="icon icon-search"></div>
+  <span class="icon icon-phone"></span>
+  <span class="icon icon-chat"></span>
+</body>
+</html>

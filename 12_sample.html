@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .clock{
+      width: 350px;
+      height: 500px;
+      border: 1px solid;
+      position: relative;
+      left: 30%;
+      top: 50px;
+    }
+    .clock .avang{
+      height: 80%;
+      width: 10px;
+      background-color: crimson;
+      position: absolute;
+      left: 50%;
+      top: 0;
+      transform: translateX(-50%) rotate(25deg);
+      transform-origin: top center;
+      animation: avang 2s infinite ease-in-out;
+    }
+    .clock .avang::after{
+      content: '';
+      width: 60px;
+      height: 60px;
+      display: block;
+      background-color: darkgoldenrod;
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      border-radius: 50%;
+    }
+    @keyframes avang{
+      /* 0%{
+        transform: translateX(-50%) rotate(25deg);
+      } */
+      50%{
+        transform: translateX(-50%) rotate(-25deg);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="clock">
+    <div class="avang"></div>
+  </div>
+</body>
+</html>
